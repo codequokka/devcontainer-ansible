@@ -1,0 +1,5 @@
+---
+- name: Install httpd
+  ansible.builtin.include_tasks: install_httpd.yml
+- name: Copy code
+  ansible.builtin.include_tasks: copy_code.yml

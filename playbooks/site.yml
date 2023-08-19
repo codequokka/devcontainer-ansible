@@ -1,0 +1,5 @@
+---
+- name: Deploy web servers
+  import_playbook: web.yml
+- name: Deploy db servers
+  import_playbook: db.yml

@@ -1,0 +1,6 @@
+---
+- name: Deploy db server
+  hosts: db
+  roles:
+    - common
+    - db
